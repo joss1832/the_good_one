@@ -57,8 +57,9 @@ footer p{
 }
 
 
-section{
-    display: flex;
+#contenedor_info{
+    display: none;
     justify-content: center;
-    background-color: chartreuse;
+    background-color: rgb(255, 0, 38);
+    height: 20vh;
 }
