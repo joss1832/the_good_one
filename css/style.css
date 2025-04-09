@@ -57,9 +57,30 @@ footer p{
 }
 
 
-#contenedor_info{
-    display: none;
-    justify-content: center;
-    background-color: rgb(255, 0, 38);
-    height: 20vh;
+/* Contenedor principal */
+#contenedor_info {
+    display: none; /* Oculto por defecto */
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Cada item de alumno */
+.alumno-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border-left: 4px solid #4CAF50;
+}
+
+/* Para el título */
+#contenedor_info h3 {
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
 }
